@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_sync_contact"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Sync from Phone" />
+
+    <item
+        android:id="@+id/action_sync_firebase"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Sync from Firebase" />
+
+
+
+</menu>
